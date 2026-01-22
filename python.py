@@ -241,4 +241,28 @@ def add_numbers(a: int, b: int) -> int:
 # ===== Walrus Operator (Python 3.8+) =====
 if (n := len(numbers)) > 5:
     print(f"List has {n} elements, more than 5")
+    
+# ===== Regex Module =====
+import re
+pattern = r'\b\w{3}\b'
+text = "The cat sat on the mat."
+matches = re.findall(pattern, text)
+print(matches)  # Output: ['The', 'cat', 'sat', 'the', 'mat'] removed all words less than 3 characters
 
+# unpacking example
+a, *b, c = [1, 2, 3, 4, 5]
+print(a)  # 1
+print(b)  # [2, 3, 4]
+print(c)  # 5
+# set comprehension
+unique_squares = {x**2 for x in range(10)}
+print(unique_squares)  # {0, 1, 4, 9, 16, 25, 36, 49, 64, 81}
+
+# * and ** operators
+def func(a, b, c):
+    print(a, b, c)
+args = (1, 2, 3)
+func(*args)  # Unpacking list/tuple
+kwargs = {'a': 4, 'b': 5, 'c': 6}
+func(**kwargs)  # Unpacking dictionary
+# advanced list comprehension
