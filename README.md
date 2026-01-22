@@ -26,6 +26,20 @@
 - [🧪 Testing — Q \& A](#-testing--q--a)
 - [🚀 Deployment \& Production — Q \& A](#-deployment--production--q--a)
 - [⚡ Strong-Signal Questions (Senior Level)](#-strong-signal-questions-senior-level)
+- [📝 Quiz Mode — Questions Only](#-quiz-mode--questions-only)
+  - [Python](#python)
+  - [SQL](#sql)
+  - [JavaScript](#javascript)
+  - [General Programming](#general-programming)
+  - [System Design](#system-design)
+  - [Practical / Behavioral](#practical--behavioral)
+  - [Strong-Signal Questions](#strong-signal-questions)
+  - [Flask](#flask)
+  - [React](#react)
+  - [Flask + React Integration](#flask--react-integration)
+  - [Testing](#testing)
+  - [Deployment \& Production](#deployment--production)
+  - [Strong-Signal Questions (Senior Level)](#strong-signal-questions-senior-level)
 
 ---
 
@@ -444,3 +458,149 @@ A: API schemas, OpenAPI specs, and contract tests.
 
 **Q: How do you optimize full-stack performance?**  
 A: Caching, minimizing network calls, compression, and code splitting.
+
+---
+
+# 📝 Quiz Mode — Questions Only
+
+## Python
+- What's the difference between a list and a tuple?
+- How does Python handle memory management?
+- What are mutable vs immutable types?
+- What are `*args` and `**kwargs`?
+- What is the GIL?
+- When should you use multithreading vs multiprocessing in Python?
+- What is a decorator?
+- Difference between `__str__` and `__repr__`?
+- What are comprehensions?
+- What happens with `a = b = []`?
+- Difference between shallow and deep copy?
+- Generators vs iterators?
+- What is a context manager?
+- How does `asyncio` work?
+- What is monkey patching?
+- What is MRO?
+
+## SQL
+- Difference between WHERE and HAVING?
+- Primary key vs foreign key?
+- Explain SQL joins.
+- What is normalization?
+- When would you denormalize?
+- DELETE vs TRUNCATE vs DROP?
+- What is an index?
+- What are window functions?
+- What is an execution plan?
+- Explain ACID.
+- What is a transaction?
+- OLTP vs OLAP?
+
+## JavaScript
+- Difference between `var`, `let`, and `const`?
+- What is hoisting?
+- What is a closure?
+- Explain `this`.
+- `==` vs `===`?
+- What is event bubbling vs capturing?
+- What is a promise?
+- What does `async/await` do?
+- How does the event loop work?
+- What is prototypal inheritance?
+- Debounce vs throttle?
+- How does JS manage memory?
+- `bind`, `call`, and `apply`?
+
+## General Programming
+- When use arrays vs linked lists?
+- Stack vs queue?
+- How does a hash table work?
+- BFS vs DFS?
+- What is Big-O?
+- Quicksort vs mergesort?
+- Greedy vs dynamic programming?
+- How do you detect a cycle in a graph?
+
+## System Design
+- What is REST?
+- REST vs GraphQL?
+- What is idempotency?
+- What is eventual consistency?
+- What is a race condition?
+- What is a deadlock?
+- How would you design a rate limiter?
+- How would you design a URL shortener?
+
+## Practical / Behavioral
+- How do you debug a production issue?
+- How do you approach legacy code?
+- What makes code testable?
+- Unit vs integration tests?
+- How do you review code?
+
+## Strong-Signal Questions
+- Describe a system you built.
+- A technical decision you regret?
+- Performance vs readability?
+- When do you refactor?
+
+## Flask
+- What is Flask?
+- Why choose Flask over Django?
+- What is WSGI?
+- How does request handling work in Flask?
+- What are Flask Blueprints?
+- How do you handle configuration in Flask?
+- How does Flask handle sessions?
+- How do you secure a Flask app?
+- How do you manage database connections?
+- How do Flask middlewares work?
+- What is Flask's application context?
+- How do you implement authentication?
+- How do you implement authorization?
+- How do you handle errors in Flask?
+- How do you scale a Flask app?
+- Flask vs FastAPI?
+
+## React
+- What is React?
+- What problem does React solve?
+- What is JSX?
+- What is a component?
+- Functional vs class components?
+- What is state?
+- What are props?
+- What are hooks?
+- What does `useEffect` do?
+- What is the dependency array in `useEffect`?
+- What is lifting state up?
+- What is controlled vs uncontrolled input?
+- What is the virtual DOM?
+- How does React handle performance?
+- What is reconciliation?
+
+## Flask + React Integration
+- How do Flask and React typically interact?
+- How do you handle authentication across Flask and React?
+- How do you handle CORS?
+- How do you structure a Flask + React project?
+- How do you handle environment variables?
+- How do you handle errors end-to-end?
+- How do you manage API versioning?
+
+## Testing
+- How do you test Flask apps?
+- How do you test React apps?
+- Unit vs integration tests?
+- How do you mock API calls in React?
+
+## Deployment & Production
+- How do you deploy Flask?
+- How do you deploy React?
+- How do you handle CI/CD?
+- How do you handle secrets in production?
+
+## Strong-Signal Questions (Senior Level)
+- How do you prevent over-fetching in React?
+- How do you prevent N+1 queries in Flask APIs?
+- How do you ensure frontend-backend contract stability?
+- How do you optimize full-stack performance?
