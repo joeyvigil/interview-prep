@@ -266,3 +266,16 @@ func(*args)  # Unpacking list/tuple
 kwargs = {'a': 4, 'b': 5, 'c': 6}
 func(**kwargs)  # Unpacking dictionary
 # advanced list comprehension
+
+# join
+words = ["Hello", "World", "Python"]
+sentence = " ".join(words)
+print(sentence)  # Output: "Hello World Python"
+
+# split
+sentence = "Hello World Python"
+words = sentence.split()
+print(words)  # Output: ["Hello", "World", "Python"]
+
+# arrays and collections
+
